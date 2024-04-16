@@ -12,6 +12,10 @@ on:
       package_file_name:
         required: true
         type: string
+      pnpm_version:
+        required: false
+        type: string
+        default: "8"
 
 env:
   MANIFEST_FILE_NAME: ${{ inputs.manifest_file_name }}
@@ -58,7 +62,9 @@ jobs:
           node-version: 20
 
       - name: Activate pnpm
-        run: corepack enable
+        run: |
+          corepack enable
+          corepack prepare pnpm@${{ inputs.pnpm_version }} --activate
 
       - name: Instrumentation
         run: |
