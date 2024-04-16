@@ -15,7 +15,7 @@ on:
       pnpm_version:
         required: false
         type: string
-        default: "8"
+        default: "9"
 
 env:
   MANIFEST_FILE_NAME: ${{ inputs.manifest_file_name }}
