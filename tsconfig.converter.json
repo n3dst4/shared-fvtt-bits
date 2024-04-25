@@ -3,11 +3,11 @@
   "include": ["./src"],
   "compilerOptions": {
     "outDir": "./js",
-  //   "target": "es2020",
+    "target": "es2020",
   //   "module": "es2020",
   //   "strict": false,
   //   "esModuleInterop": true,
-  //   "jsx": "preserve",
+    "jsx": "preserve",
 	// 	"moduleResolution": "bundler",
   //   "types": [
 	// 		"@league-of-foundry-developers/foundry-vtt-types",
