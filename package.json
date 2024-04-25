@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "tsc"
+    "test": "tsc",
+    "makejs": "rm -rf js/*; npx tsc -p tsconfig.converter.json; npx prettier -w js/*"
   },
   "keywords": [],
   "author": "",
