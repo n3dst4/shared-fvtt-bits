@@ -1,4 +1,4 @@
 {
 	"extends": "./dotfiles/tsconfig.fvtt.json",
-	"include": ["task-core", "src"],
+	"include": ["task-core", "src", "js"],
 }

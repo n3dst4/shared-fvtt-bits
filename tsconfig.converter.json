@@ -1,0 +1,19 @@
+{
+	"extends": "./dotfiles/tsconfig.fvtt.json",
+  "include": ["./src"],
+  "compilerOptions": {
+    "outDir": "./js",
+  //   "target": "es2020",
+  //   "module": "es2020",
+  //   "strict": false,
+  //   "esModuleInterop": true,
+  //   "jsx": "preserve",
+	// 	"moduleResolution": "bundler",
+  //   "types": [
+	// 		"@league-of-foundry-developers/foundry-vtt-types",
+	// 		"@lumphammer/investigator-fvtt-types",
+	// 		// "vite/client"
+	// 	],
+    "noEmit": false,
+  }
+}

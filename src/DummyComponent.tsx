@@ -1,5 +1,3 @@
-import "./ApplicationV2Types";
-
 import React from "react";
 
 interface DummyComponentProps extends React.PropsWithChildren {}

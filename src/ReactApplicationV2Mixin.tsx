@@ -1,7 +1,6 @@
 import React, { StrictMode } from "react";
 import { createRoot, Root } from "react-dom/client";
 
-// import { createRoot, Root } from "react-dom/client";
 import { FoundryAppContext } from "./FoundryAppContext";
 import { Constructor, RecursivePartial, Render } from "./types";
 

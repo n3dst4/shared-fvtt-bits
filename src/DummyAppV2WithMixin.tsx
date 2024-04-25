@@ -1,5 +1,3 @@
-import "./ApplicationV2Types";
-
 import React from "react";
 
 import { DummyComponent } from "./DummyComponent";
