@@ -3,15 +3,12 @@ export interface Config {
   publicPath: string;
   manifestName: string;
   buildPath: string;
+  packagePath: string;
 }
 
-export interface TaskArgs {
-  publicPath: string;
-  manifestName: string;
+export interface TaskArgs extends Config {
   manifestPath: string;
-  buildPath: string;
   linkDir: string | undefined;
-  rootPath: string;
   manifest: any;
   log: (...args: any[]) => void;
   synchronise: (
@@ -29,3 +26,15 @@ export interface BootArgs {
   config: Config;
   commands: TaskFunction[];
 }
+
+/**
+ * A dumb manifest type
+ */
+export type Manifest = {
+  id: string;
+};
+
+export type FoundryConfig = {
+  dataPath: string;
+  url?: string;
+};
