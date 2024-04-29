@@ -9,7 +9,7 @@ export interface Config {
 export interface TaskArgs extends Config {
   manifestPath: string;
   linkDir: string | undefined;
-  manifest: any;
+  manifest: Manifest;
   log: (...args: any[]) => void;
   synchronise: (
     srcDirPath: string,
@@ -27,14 +27,25 @@ export interface BootArgs {
   commands: TaskFunction[];
 }
 
-/**
- * A dumb manifest type
- */
-export type Manifest = {
-  id: string;
-};
+export interface PackDefinition {
+  name: string;
+  label: string;
+  system: string;
+  path: string;
+  type: string;
+}
 
-export type FoundryConfig = {
+/**
+ * A dumb manifest type which just has the parts we need
+ */
+export interface Manifest {
+  id: string;
+  version: string;
+  packs?: PackDefinition[];
+  download?: string;
+}
+
+export interface FoundryConfig {
   dataPath: string;
   url?: string;
-};
+}
