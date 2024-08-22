@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@emotion/react": "^11.13.0",
+    "@emotion/react": "^11.13.3",
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
     "@lumphammer/investigator-fvtt-types": "^1.12.1",
     "@types/react": "^18.3.4",
@@ -29,7 +29,7 @@
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
-    "@emotion/react": "^11.13.0",
+    "@emotion/react": "^11.13.3",
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
     "@lumphammer/investigator-fvtt-types": "^1.12.1",
     "@types/react": "^18.3.4",
