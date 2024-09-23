@@ -46,8 +46,8 @@ importers:
         specifier: ^9.280.0
         version: 9.280.0(@pixi/constants@6.5.10)(@pixi/core@6.5.10(@pixi/constants@6.5.10)(@pixi/extensions@6.5.10)(@pixi/math@6.5.10)(@pixi/runner@6.5.10)(@pixi/settings@6.5.10(@pixi/constants@6.5.10))(@pixi/ticker@6.5.10(@pixi/extensions@6.5.10)(@pixi/settings@6.5.10(@pixi/constants@6.5.10)))(@pixi/utils@6.5.10(@pixi/constants@6.5.10)(@pixi/settings@6.5.10(@pixi/constants@6.5.10))))(@pixi/display@6.5.10(@pixi/constants@6.5.10)(@pixi/math@6.5.10)(@pixi/settings@6.5.10(@pixi/constants@6.5.10))(@pixi/utils@6.5.10(@pixi/constants@6.5.10)(@pixi/settings@6.5.10(@pixi/constants@6.5.10))))(@pixi/graphics@6.5.10(vnjw7qx4yf6lp5siigycla6i5q))(@pixi/math@6.5.10)(@pixi/utils@6.5.10(@pixi/constants@6.5.10)(@pixi/settings@6.5.10(@pixi/constants@6.5.10)))
       '@lumphammer/investigator-fvtt-types':
-        specifier: ^1.12.1
-        version: 1.12.1(@types/react@18.3.6)(react@18.3.1)
+        specifier: ^1.13.2
+        version: 1.13.2
       '@types/react':
         specifier: ^18.3.6
         version: 18.3.6
@@ -201,8 +201,8 @@ packages:
   '@league-of-foundry-developers/foundry-vtt-types@9.280.0':
     resolution: {integrity: sha512-Dv8/+kgAnI2F5snSWcnMnZsgO/87AFyBruflluZkWDbP7Pm5qi32GlNYCDEg7HMKybzyKmgLV2qXMmYPHtCT7w==}
 
-  '@lumphammer/investigator-fvtt-types@1.12.1':
-    resolution: {integrity: sha512-GRCIXeXJxhwKVMWm9dVqNf+DVueeK+zIJv/2hmVpUM3vcUciwkLviIne6v2mMmZ7WxfUbuoL/chMPMKE8RhePA==}
+  '@lumphammer/investigator-fvtt-types@1.13.2':
+    resolution: {integrity: sha512-8rzXhXTiaynhAIGxyecOYsB4SU9EH9ZEgISOEK+sRsjImcqrrFCeCuZpPR+YJfg9j2+My2AanY76isLAgZf+JA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2107,12 +2107,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@lumphammer/investigator-fvtt-types@1.12.1(@types/react@18.3.6)(react@18.3.1)':
+  '@lumphammer/investigator-fvtt-types@1.13.2':
     dependencies:
-      '@emotion/react': 11.13.3(@types/react@18.3.6)(react@18.3.1)
-    transitivePeerDependencies:
-      - '@types/react'
-      - react
+      '@lumphammer/shared-fvtt-bits': 'link:'
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:

@@ -13,7 +13,7 @@
   "devDependencies": {
     "@emotion/react": "^11.13.3",
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
-    "@lumphammer/investigator-fvtt-types": "^1.12.1",
+    "@lumphammer/investigator-fvtt-types": "^1.13.2",
     "@types/react": "^18.3.6",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.5.0",
@@ -31,7 +31,7 @@
   "peerDependencies": {
     "@emotion/react": "^11.13.3",
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
-    "@lumphammer/investigator-fvtt-types": "^1.12.1",
+    "@lumphammer/investigator-fvtt-types": "^1.13.2",
     "@types/react": "^18.3.6",
     "@types/react-dom": "^18.2.25",
     "@typescript-eslint/eslint-plugin": "^8.5.0",
