@@ -9,8 +9,8 @@
     "typecheck": "tsc --noEmit",
     "lint:check": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
-    "format:check": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format:check": "npx prettier --check src task-core dotfiles",
+    "format:fix": "npx prettier --check src task-core dotfiles --write"
   },
   "keywords": [],
   "author": "",
