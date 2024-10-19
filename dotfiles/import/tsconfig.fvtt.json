@@ -53,6 +53,6 @@
     "${configDir}/*.ts",
     "${configDir}/*.js",
     // for .eslintrc.cjs
-    "${configDir}/.*.cjs",
+    "${configDir}/.*.cjs"
   ]
 }
