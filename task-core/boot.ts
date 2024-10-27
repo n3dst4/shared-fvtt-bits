@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import fs from "fs-extra";
 import path from "path";
-import yargs, { ArgumentsCamelCase } from "yargs";
+import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 
 import { BootArgs, FoundryConfig, Manifest, TaskArgs } from "./types";
@@ -53,8 +53,8 @@ export async function boot({
       () => {
         // no builder
       },
-      (args: ArgumentsCamelCase) => {
-        void command(finalConfig, args);
+      () => {
+        void command(finalConfig);
       },
     );
   }
