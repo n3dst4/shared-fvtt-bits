@@ -45,7 +45,7 @@
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.1",
     "@lumphammer/investigator-fvtt-types": "^1.13.2",
     "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.2.25",
+    "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^8.11.0",
     "@typescript-eslint/parser": "^8.11.0",
     "eslint": "^8.57.1",
